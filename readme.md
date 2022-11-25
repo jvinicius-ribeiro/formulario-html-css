@@ -38,9 +38,9 @@ O projeto consistiu em criar uma página de <u>Cadastro de Devs</u>, que solicit
 Além disso, há aplicação do conteúdo aprendido em CSS para estilizar a landing page, tornando toda a experiência mais agradável ao usuário.
 <br><br>
 Utilizei como apoio uma video-aula da instrutora <strong>
-<a href="https://www.youtube.com/watch?v=wwqOJ2o84S4">Rafa Ballerini</a></strong>, além do conteúdo aprendido no curso.
+<a target="_blank" href="https://www.youtube.com/watch?v=wwqOJ2o84S4">Rafa Ballerini</a></strong>, além do conteúdo aprendido no curso.
 <br><br>
-Você pode visualizar como ficou a página <strong><a href="(https://jvinicius-ribeiro.github.io/formulario-html-css/">CLICANDO AQUI!</a></strong>
+Você pode visualizar como ficou a página <strong><a href="https://jvinicius-ribeiro.github.io/formulario-html-css/" target="_blank">CLICANDO AQUI!</a></strong>
 
 <br>
 
@@ -48,7 +48,7 @@ Você pode visualizar como ficou a página <strong><a href="(https://jvinicius-r
 
 ## 🏆 Aprendizados
 
-Esse projeto foi interessante por possibilitar que pudesse aplicar as tags e conteúdos aprendidos no módulo de Formulários no curso <strong><a href="https://www.youtube.com/@DevemDobro">DevQuest</a></strong>.<br> Além de reforçar aprendizados de semântica (HTML), estilização (CSS) e clean-code. 
+Esse projeto foi interessante por possibilitar que pudesse aplicar as tags e conteúdos aprendidos no módulo de Formulários no curso <strong><a target="_blank" href="https://www.youtube.com/@DevemDobro">DevQuest</a></strong>.<br> Além de reforçar aprendizados de semântica (HTML), estilização (CSS) e clean-code. 
 <br><br>
 
 <div align="center">
