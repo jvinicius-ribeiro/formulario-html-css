@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Devs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Cadastro de Devs</h1>
+        <p id="subtitulo">Complete as suas informações</p>
+        <br>
+    </header>
+
+    <main>
+        <form>
+            <fieldset class="box-content">
+                <div class="campo"> 
+                    <label for="nome"><strong>Nome completo</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email"><strong>e-mail</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="idade"><strong>Idade</strong></label>
+                    <input type="number" min="1" max="120" name="idade" id="idade" required>
+                </div>
+            </fieldset><br>
+
+            <div class="campo">
+                <label><strong>De que lado da aplicação você desenvolve?</strong></label>
+                <select name="devweb">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Front-end</option>
+                    <option>Back-end</option>
+                    <option>FullStack</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label><strong>Senioridade:</strong></label>
+                <select name="senioridade" id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Júnior</option>
+                    <option>Pleno</option>
+                    <option>Sênior</option>
+                </select>
+            </div>
+
+            <fieldset class="box-content">
+                <div>
+                    <label><strong>Selecione abaixo as tecnologias que você utiliza:</strong></label><br><br>
+                    <input type="checkbox" name="javascript" id="javascript" value="javascript">
+                    <label for="javascript">Javascript</label>
+                    <input type="checkbox" name="java" id="java" value="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="react" id="react" value="react">
+                    <label for="react">React</label>
+                    <input type="checkbox" name="c++" id="c++" value="c++">
+                    <label for="c++">C++</label>
+                    <input type="checkbox" name="c#" id="c#" value="c#">
+                    <label for="c#">C#</label>
+                    <input type="checkbox" name="python" id="python" value="python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="nodejs" id="nodejs" value="nodejs">
+                    <label for="nodejs">Node.js</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br><br>
+                <label><strong>Conte um pouco da sua experiência como Dev!</strong></label>
+                <textarea rows="5" cols="64" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <button class="botao" type="submit">Salvar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
